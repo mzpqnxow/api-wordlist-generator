@@ -32,7 +32,7 @@ This is just a simple, quick and dirty way to do this. There are many better way
 This only finds functions in files with valid AST that the AST package can parse. Via some regex and some shell utils it's relatively easy to find class methods and other things. Try that out, it isn't terribly difficult, something like this is close to what you want, plus a little post-processing with sed/awk/cut/tr:
 
 ```
-$ find . -name \*.py -exec grep -Eo ' *def (.*) *\(' {} \; | sed -e 's/^ *def *//g' | cut -d '(' -f 1 | grep -v '^_' | grep -v '\{\}' > funcs.lst
+$ find . -name \*.py -exec grep -Eo ' *def (.*) *\(' {} \; | sed -e 's/^ *def *//g' | cut -d '(' -f 1 | grep -v '^_' | grep -E -v '[=,\{}]' > funcs.lst
 ```
 
 ## License
