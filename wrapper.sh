@@ -14,5 +14,5 @@ PYTHON_APP_PATH=$1
 
 for FILEPATH in $(find "$PYTHON_APP_PATH" -name \*.py)
 do
-  ./parse.py -i "$FILEPATH" | sort -u
+  ./parse.py -i "$FILEPATH" | grep -v ^_ | grep -v ^__ | sort -u
 done
