@@ -1,4 +1,4 @@
 pep8
 pyflakes
 pylint
-azure-cli
+ast
