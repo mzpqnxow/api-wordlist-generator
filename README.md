@@ -1,5 +1,5 @@
 # api-wordlist-generator
-Simple shellscript to utilize public resources to generate wordlists of methods/functions/variables
+Simple Python script and shell script to utilize public resources to generate wordlists of methods/functions/variables. Uses the excellent AST parsing Python package
 
 ## Usage
 
