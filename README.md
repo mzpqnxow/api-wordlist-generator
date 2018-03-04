@@ -25,6 +25,11 @@ $ pip install <some/framework/or/app>
 $ ./wrapper.sh venv/lib/python2.7/site-packages/ | sort -u > worlist.out
 ```
 
+## Notes
+
+This is just a simple, quick and dirty way to do this. There are many better ways. But this one is mine :>
+
 ## License
 
 3-clause BSD license, (C) copyright /at/ mzpqnxow.com
+
