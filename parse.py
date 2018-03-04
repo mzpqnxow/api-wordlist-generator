@@ -1,9 +1,10 @@
-'''
+#!/usr/bin/env python
+"""
 Get all function calls from a python file
 
 The MIT License (MIT)
 Copyright (c) 2016 Suhas S G <jargnar@gmail.com>
-'''
+"""
 import ast
 from collections import deque
 
