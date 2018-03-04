@@ -31,5 +31,5 @@ This is just a simple, quick and dirty way to do this. There are many better way
 
 ## License
 
-3-clause BSD license, (C) copyright /at/ mzpqnxow.com
+3-clause BSD license, (C) 2018, copyright /at/ mzpqnxow.com
 
